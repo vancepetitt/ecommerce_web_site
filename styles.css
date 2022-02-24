@@ -6,6 +6,17 @@
   box-sizing: inherit;
 }
 
+body {
+  margin: 1rem auto;
+  width: 80%;
+}
+
+body section {
+  margin-top: 6rem auto;
+  padding: 2rem;
+}
+
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -15,14 +26,18 @@ html {
   background-color: white;
   color: black;
   display: flex;
-  align-items: center;
+  flex-direction: row;
 }
 
-ul {
+.navbar > div {
+  margin: 10%
+}
+
+.navbar ul {
   list-style-type: none;
 }
 
-li {
+.navbar li {
   display: inline;
 }
 
@@ -32,7 +47,7 @@ h1 {
   color: black;
   font-size: 30;
 }
-.h2 {
+h2 {
   font-family: "Segoe UI";
   letter-spacing: 50;
   color: black;
@@ -53,7 +68,7 @@ h1 {
   letter-spacing: 50;
 }
 
-.product.a {
+.product a {
   color: #bf7631;
   text-align: left;
 }
@@ -70,6 +85,26 @@ h1 {
   font-size: 18px;
 }
 
-.card button:hover {
-  opacity: 0.7;
+
+.contact button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #bf7631;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+  font-size: 18px;
+}
+
+.footer {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #Bf7631;
+}
+
+.footer li {
+  display: inline;
 }
