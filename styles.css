@@ -11,47 +11,23 @@ html {
   font-size: 62.5%;
 }
 
-.nav {
-  list-style-type: none;
-  margin: 0;
-  overflow: hidden;
+.navbar {
   background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
 }
 
 ul {
   list-style-type: none;
-  display: inline-block;
-  color: black;
-  margin: 0;
-  overflow: hidden;
-  background-color: white;
-  font-family: 'Segoe UI';
-  vertical-align: middle;
 }
-
 
 li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li input {
-  float: right;
-}
-
-li b {
-  float: right;
+  display: inline;
 }
 
 .h2 {
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   letter-spacing: 50;
   color: black;
   font-size: 22px;
@@ -61,22 +37,21 @@ li b {
   max-width: 300px;
   margin: auto;
   text-align: left;
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   letter-spacing: 50;
 }
 
 .product.a {
-  color: #Bf7631;
+  color: #bf7631;
   text-align: left;
 }
-
 
 .product button {
   border: none;
   outline: 0;
   padding: 12px;
   color: white;
-  background-color: #Bf7631;
+  background-color: #bf7631;
   text-align: center;
   cursor: pointer;
   width: 100%;
