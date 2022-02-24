@@ -16,7 +16,6 @@ body section {
   padding: 2rem;
 }
 
-
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -30,7 +29,7 @@ html {
 }
 
 .navbar > div {
-  margin: 10%
+  margin: 10%;
 }
 
 .navbar ul {
@@ -59,10 +58,17 @@ h2 {
   flex-direction: row;
   flex-wrap: nowrap;
 }
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 10px;
+}
 
 .product {
   max-width: 300px;
-  margin: auto;
   text-align: left;
   font-family: "Segoe UI";
   letter-spacing: 50;
@@ -85,7 +91,6 @@ h2 {
   font-size: 18px;
 }
 
-
 .contact button {
   border: none;
   outline: 0;
@@ -102,7 +107,7 @@ h2 {
   list-style-type: none;
   margin: 0;
   overflow: hidden;
-  background-color: #Bf7631;
+  background-color: #bf7631;
 }
 
 .footer li {
