@@ -39,6 +39,12 @@ h1 {
   font-size: 22px;
 }
 
+.about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
 .product {
   max-width: 300px;
   margin: auto;
