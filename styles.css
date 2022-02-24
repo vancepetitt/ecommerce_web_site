@@ -75,7 +75,7 @@ h2 {
   font-family: "Segoe UI";
   letter-spacing: 50;
   color: black;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .about {
@@ -85,6 +85,8 @@ h2 {
 }
 .row {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .column {
@@ -93,7 +95,6 @@ h2 {
 }
 
 .product {
-  max-width: 300px;
   text-align: left;
   font-family: "Segoe UI";
   letter-spacing: 50;
